@@ -1,0 +1,84 @@
+[debug] [2021-01-16T02:07:35.435Z] ----------------------------------------------------------------------
+[debug] [2021-01-16T02:07:35.439Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-16T02:07:35.440Z] CLI Version:   9.2.1
+[debug] [2021-01-16T02:07:35.440Z] Platform:      win32
+[debug] [2021-01-16T02:07:35.440Z] Node Version:  v14.15.3
+[debug] [2021-01-16T02:07:35.441Z] Time:          Sat Jan 16 2021 10:07:35 GMT+0800 (China Standard Time)
+[debug] [2021-01-16T02:07:35.442Z] ----------------------------------------------------------------------
+[debug] [2021-01-16T02:07:35.442Z] 
+[debug] [2021-01-16T02:07:35.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-16T02:07:35.472Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\cvku
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-16T02:08:09.376Z] > refreshing access token with scopes: []
+[debug] [2021-01-16T02:08:09.377Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-16T02:08:11.692Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-01-16T02:08:13.956Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\Abhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\Abhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:11:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\Abhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-01-16T02:13:34.784Z] ----------------------------------------------------------------------
+[debug] [2021-01-16T02:13:34.789Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-16T02:13:34.789Z] CLI Version:   9.2.1
+[debug] [2021-01-16T02:13:34.790Z] Platform:      win32
+[debug] [2021-01-16T02:13:34.790Z] Node Version:  v14.15.3
+[debug] [2021-01-16T02:13:34.791Z] Time:          Sat Jan 16 2021 10:13:34 GMT+0800 (China Standard Time)
+[debug] [2021-01-16T02:13:34.792Z] ----------------------------------------------------------------------
+[debug] [2021-01-16T02:13:34.792Z] 
+[debug] [2021-01-16T02:13:34.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-16T02:13:34.820Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\cvku
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
